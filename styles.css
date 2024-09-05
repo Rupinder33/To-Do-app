@@ -1,0 +1,64 @@
+body {
+    background-color: pink;
+}
+
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: rgb(183, 122, 181);
+    margin-left: 33%;
+    margin-top: 15%;
+    
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px rgb(5, 91, 91);
+    border-radius: 2%;
+    outline: none;
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    background-color: rgb(23, 21, 21);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.text ul {
+    position: relative;
+    background-color: rgb(12, 102, 102);
+    color: white;
+    padding: 7px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: blanchedalmond;
+}
+
+.task-text {
+    padding-right: 60px; 
+}
+
+.delete {
+    padding-right: 35px; 
+}
+
+.complete {
+    right: 10px; 
+}
